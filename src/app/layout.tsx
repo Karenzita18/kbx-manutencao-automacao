@@ -10,7 +10,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "KBX | Automação e manutenção",
+  title: "KBX | Automação e Manutenção",
   description: "Descrição do site",
 };
 

@@ -11,6 +11,7 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 
+
 const Footer = () => {
   const data = new Date();
 
