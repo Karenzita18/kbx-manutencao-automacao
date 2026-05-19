@@ -4,12 +4,9 @@ import Link from "next/link";
 import { Link as ScrollLink } from "react-scroll";
 
 import {
-  FaFacebookF,
   FaInstagram,
-  FaClock,
   FaWhatsapp,
   FaPhoneAlt,
-  FaMapMarkerAlt,
   FaEnvelope,
   FaLinkedin,
 } from "react-icons/fa";
