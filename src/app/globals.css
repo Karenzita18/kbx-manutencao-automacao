@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  font-variant-ligatures: none;
+}
+
+section {
+  @apply py-10 md:py-16 lg:px-20 px-5;
+}
+
+.container {
+  @apply mx-auto;
+}
+
+.row {
+  @apply max-w-7xl mx-auto;
+}
+
+/* Estilo da barra de rolagem */
+::-webkit-scrollbar {
+  width: 12px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff; /* Cor do fundo da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0057D9; /* Cor da barra de rolagem */
+  border-radius: 6px; /* Borda arredondada */
+  border: 3px solid #0057D9; /* Espaço entre a barra e o fundo */
+}
+
+.custom-swiper-pagination .swiper-pagination-bullet {
+  background-color: #0057D9; /* Cor roxa */
+  bottom: 10px; /* Ajuste a posição para ficar logo abaixo da imagem */
+}
+
+.custom-swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #0057D9; /* Cor roxa mais escura para a bolinha ativa */
+}
